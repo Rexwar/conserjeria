@@ -1,0 +1,31 @@
+@startuml
+package cl.ucn.disc.as.conserjeria {
+    package model {
+        package exception {
+        }
+
+        class Building {
+            - name: String
+            - address: String
+            - numberFloors: Integer
+        }
+
+        class Apartment {
+            - number: Integer
+            - floorName: String
+        }
+
+        class Owner {
+            - rut: String
+            - name: String
+            - lastName: String
+            - email: String
+            - phone: String
+        }
+
+        class Contract {
+
+        }
+    }
+}
+@enduml
